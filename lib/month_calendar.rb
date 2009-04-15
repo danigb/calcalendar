@@ -15,6 +15,6 @@ class MonthCalendar
   end
 
   def self.civil(y=-4712, m=1, d=1, sg=Date::ITALY)
-    Calendar.new(Date.new(y, m, d, sg))
+    MonthCalendar.new(Date.new(y, m, d, sg))
   end
 end
