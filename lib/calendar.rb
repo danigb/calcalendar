@@ -1,7 +1,7 @@
 
 require 'date'
 
-class Calendar
+class MonthCalendar
   def initialize(date)
     @date = date
   end
